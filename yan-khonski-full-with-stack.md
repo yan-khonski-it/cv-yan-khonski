@@ -106,12 +106,12 @@ https://www.ita-dev.com/?lang=en
 _20 January 2015 - 18 November 2016_
 
 Prototyped functionality and features, so our customer could better understand how the software will work in the future, provided technical advise to the customer. 
-Result, the customer agreed with the solution (a project for Standard Bank).
 
 Automated manual process of filling data (NDA for this project, sorry):
-1. Wrote a web scroller with a parser that stores geographical information.
-2. Wrote revere-geocoding tool to retrieve cadastrial information.
-I used OpenStreet API, Nominatum, Overpass. Then I stored this information into MySQL database. Jsoup for parsing.
+1. Wrote a web scroller with a parser that fetches information from the internet.
+2. Wrote a processor that converts the information into our busness records.
+3. Optimized storing those business records into the database.
+4. Added a UI application to fetch and display those records to the user.
 
 Fun project (I wanted to visualize our code base and show it to the team):
 wrote a tool that builds an oriented graph representing classes (Spring Beans) dependencies of the source code directory.
