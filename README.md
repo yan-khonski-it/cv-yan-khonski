@@ -1,7 +1,6 @@
 # Yan Khonski
 
-- +420 732 455 665
-- [yankhonskiy@yandex.ru](yankhonskiy@yandex.ru)
+- [linkedin](https://www.linkedin.com/in/yan-khonski/)
 - [stackoverflow](https://stackoverflow.com/users/1839360/yan-khonski)
 - [github](https://github.com/yan-khonski-it)
 
