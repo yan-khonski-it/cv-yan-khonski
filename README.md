@@ -4,14 +4,32 @@
 - [stackoverflow](https://stackoverflow.com/users/1839360/yan-khonski)
 - [github](https://github.com/yan-khonski-it)
 
+## Principal Software Engineer – Wrike
+
+https://www.wrike.com/
+
+_1 January 2021 – Present_
+
+Internally moved to Wrike after Citrix restructuring at the end of 2021.
+
+Reduced the number of queries on the database by 10 %,
+while our DAU grew by 2 % during Q1 2022. Analyzed most frequently executed queries, added caches,
+found and got removed unnecessary functionality with extra load,
+and changed the logic to reduce the number of calls.
+
+Resolved production incidents. An example, we had 3000 request per minute for one public API end-point 
+from one customer. As it turned out, the end-point would invoke a database query,
+which timeout the client request, so the client would retry.
+Added rate limiter for our public API end-points based on customers plans and user settings.
+
 ## Principal Software Engineer – Citrix
 
 https://docs.citrix.com/en-us/citrix-microapps.html
 
-_1 September 2020 – Present_
+_1 September 2020 – December 31_
 
-Took ownership of multi-tenant migration of job processing nodes.
-Designed, wrote architecture concept of the solution, documented it (diagrams.net, confluence).
+Designed, wrote architecture concept of the "multi-tenant migration of job processing",
+documented it (diagrams.net, confluence).
 Organized meetings with related teams, split the problem into manageable tasks and assigned them to the teams (and
 people).
 
@@ -77,8 +95,6 @@ Examples: improper transactions handling, backward compatibility issues with mes
 
 Improved REST API for some services (made it more client oriented instead of database entities oriented).
 Wrote full regression REST API tests for some components (jMeter).
-
-
 
 Tech stack:
 
