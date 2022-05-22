@@ -26,10 +26,10 @@ Added rate limiter for our public API end-points based on customers plans and us
 
 https://docs.citrix.com/en-us/citrix-microapps.html
 
-_1 September 2020 – December 31_
+_1 September 2020 – December 31 2021_
 
-Designed, wrote architecture concept of the "multi-tenant migration of job processing",
-documented it (diagrams.net, confluence).
+Designed, wrote architecture concept, documented (diagrams.net, confluence) 
+"multi-tenant migration of job processing nodes".
 Organized meetings with related teams, split the problem into manageable tasks and assigned them to the teams (and
 people).
 
