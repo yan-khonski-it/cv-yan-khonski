@@ -13,7 +13,7 @@ _1 January 2021 – Present_
 Internally moved to Wrike after Citrix restructuring at the end of 2021.
 
 Reduced the number of queries on the database by 10 %,
-while our DAU grew by 2 % during Q1 2022. Analyzed most frequently executed queries, added caches,
+while our DAU grew by 2 % during Q1 2022. Analyzed most frequently executed queries, added caches (distributed, local, layered),
 found and got removed unnecessary functionality with extra load,
 and changed the logic to reduce the number of calls.
 
