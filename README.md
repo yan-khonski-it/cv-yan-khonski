@@ -22,6 +22,15 @@ from one customer. As it turned out, the end-point would invoke a database query
 which timeout the client request, so the client would retry.
 Added rate limiter for our public API end-points based on customers plans and user settings.
 
+Tech stack:
+
+- Java 11, Java 17, Spring, MyBatis
+- PostgreSQL
+- Redis, internal caches (Guava)
+- JMS (RabbitMQ)
+- Kafka
+
+
 ## Principal Software Engineer – Citrix
 
 https://docs.citrix.com/en-us/citrix-microapps.html
@@ -174,7 +183,7 @@ Tech stack:
 - PostgreSQL
 - Apache Tomcat
 
-## Education - Belarussian State University
+## Education - Belarusian State University
 
 ### Faculty of Applied Mathematics and Computer Science
 
