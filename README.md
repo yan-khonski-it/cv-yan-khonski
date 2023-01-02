@@ -72,8 +72,6 @@ Tech stack:
 - Java 11, Spring, Hibernate, MyBatis
 - MS SQL
 - Redis, internal caches (Caffeine)
-- JMS (ActiveMQ)
-- Hashicorp Vault
 - Azure cloud (service bus, event hub, compute instances, etc)
 - Docker, Docker compose
 - Pact (contract tests broker)
@@ -111,7 +109,6 @@ Tech stack:
 - MySQL
 - MongoDB
 - Kafka
-- Docker Compose, Ansible, HA Proxy, Traeffic
 - Spring Cloud (Service discovery Eureka, Configuration Service, Gateway).
 - Groovy, Spock
 
