@@ -3,6 +3,7 @@
 - [linkedin](https://www.linkedin.com/in/yan-khonski/)
 - [stackoverflow](https://stackoverflow.com/users/1839360/yan-khonski)
 - [github](https://github.com/yan-khonski-it)
+- [leetcode](https://leetcode.com/yan-khonski-it/)
 
 ## Senior Software Engineer, L64 - Microsoft
 
