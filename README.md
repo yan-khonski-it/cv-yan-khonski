@@ -4,11 +4,32 @@
 - [stackoverflow](https://stackoverflow.com/users/1839360/yan-khonski)
 - [github](https://github.com/yan-khonski-it)
 
+## Senior Software Engineer, L64 - Microsoft
+
+Migrated Orleans from 3.1.7 to the latest version.
+
+Services (silos) can run jobs, and any job with given key can be run at most once at any moment of time. Orleans promises that the data is not corrupted (modified concurrently by different instances of services). Assessed risks, ensured we can rollback, created migration plan. Within four weeks learned new technologies [originally, I worked with Java stack].
+Solved problems with services communication (clustering – gossip communication in the same datacenter; multi-clustering – gossip communication of services in different datacenters) – at the beginning of migration services could not discover each other.
+Fixed compatibility issues (new version of the framework changed the algorithm for id generation), added tests to ensure records ids are the same with newer versions of the library.
+Finally, deployed to production and tested the correctness (services discover each other, data is not corrupted).
+More details and problems I had to solve https://github.com/yan-khonski-it/orleans-migration-experience/blob/main/README.md
+
+Resolved 60+ incidents during on call weeks, deployed a hotfix, created tasks to address false alarms. All this during my two months of work.
+
+Tech stack:
+- Azure
+- Azure Traffic Manager
+- CosmosDB
+- .NET
+- Orleans
+
+
+
 ## Principal Software Engineer – Wrike
 
 https://www.wrike.com/
 
-_1 January 2022 – Present_
+_1 January 2022 – February 28, 2023_
 
 Internally moved to Wrike after Citrix restructuring at the end of 2021.
 
