@@ -6,6 +6,8 @@
 
 ## Senior Software Engineer, L64 - Microsoft
 
+_1 March 2022 – 31 May 2023_
+
 Migrated Orleans from 3.1.7 to the latest version.
 
 Services (silos) can run jobs, and any job with given key can be run at most once at any moment of time. Orleans promises that the data is not corrupted (modified concurrently by different instances of services). Assessed risks, ensured we can rollback, created migration plan. Within four weeks learned new technologies [originally, I worked with Java stack].
@@ -29,7 +31,7 @@ Tech stack:
 
 https://www.wrike.com/
 
-_1 January 2022 – February 28, 2023_
+_1 January 2022 – 28 February 2023_
 
 Internally moved to Wrike after Citrix restructuring at the end of 2021.
 
@@ -56,7 +58,7 @@ Tech stack:
 
 https://docs.citrix.com/en-us/citrix-microapps.html
 
-_1 September 2020 – December 31 2021_
+_1 September 2020 – 31 December 2021_
 
 Designed, wrote architecture concept, documented (diagrams.net, confluence) 
 "multi-tenant migration of job processing nodes".
