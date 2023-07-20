@@ -208,7 +208,7 @@ Tech stack:
 
 ### Faculty of Applied Mathematics and Computer Science
 
-_September 2010 - July 2015_
+_1 September 2010 - 30 June 2015_
 
 Math and Computer Science degree 5 years (between Bachelor and Master)
 
