@@ -5,6 +5,28 @@
 - [github](https://github.com/yan-khonski-it)
 - [leetcode](https://leetcode.com/yan-khonski-it/)
 
+## Senior Software Engineer, G10 - Cisco
+_14 August 2023 - Present
+
+Working on storage consolidation
+
+Interviewed candidates for Tech Lead and Senior Software Engineer positions
+
+Upgraded libraries (HikariCP and fixed flaky tests)
+
+Created migration plan and Upgraded VerticaDB from 11 to 23 and JDBC drivers.
+
+Upgraded Java from 11 to 23.
+
+Fixed bugs
+
+Tech stack:
+- VerticaDB
+- MongoDB
+- Java
+- Python
+- Spring Framework
+
 ## Senior Software Engineer, L64 - Microsoft
 
 _1 March 2022 – 31 May 2023_
