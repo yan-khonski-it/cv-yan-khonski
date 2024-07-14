@@ -6,7 +6,7 @@
 - [leetcode](https://leetcode.com/yan-khonski-it/)
 
 ## Senior Software Engineer, G10 - Cisco
-_14 August 2023 - Present
+_14 August 2023 - Present_
 
 Working on storage consolidation
 
