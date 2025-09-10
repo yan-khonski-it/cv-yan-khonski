@@ -34,6 +34,8 @@ Tech stack:
 - Java
 - Python
 - Spring Framework
+- Bash
+- C (a little)
 
 
 ## Senior Software Engineer, L64 - Microsoft
