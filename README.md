@@ -4,11 +4,70 @@
 - [stackoverflow](https://stackoverflow.com/users/1839360/yan-khonski)
 - [github](https://github.com/yan-khonski-it)
 
+## Senior Software Engineer, G10 - Cisco
+
+[Secure Network Analytics](https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html)
+
+_14 August 2023 - Present_
+
+Working on storage consolidation.
+
+[Added zeek support to storage](https://blogs.cisco.com/security/network-visibility-module-zeek-detections-in-secure-network-analytics),
+so now SNA can also run detections on zeek telemetry.
+
+Build a pipeline for testing performance: 32 TB data, tested different encodings, ingest over 100k records
+per second.
+
+Interviewed candidates for Tech Lead and Senior Software Engineer positions.
+
+Upgraded libraries (HikariCP and fixed flaky tests).
+
+Created migration plan and Upgraded VerticaDB from 11 to 23 and JDBC drivers.
+
+Upgraded Java from 11 to 23.
+
+Fixed bugs
+
+Tech stack:
+- VerticaDB
+- MongoDB
+- Java
+- Python
+- Spring Framework
+
+
+## Senior Software Engineer, L64 - Microsoft
+
+_1 March 2022 – 31 May 2023_
+
+Migrated Orleans from 3.1.7 to the latest version.
+
+Services (silos) can run jobs, and any job with given key can be run at most once at any moment of time.
+Orleans promises that the data is not corrupted (modified concurrently by different instances of services).
+Assessed risks, ensured we can rollback, created migration plan. Within four weeks learned new technologies [originally, I worked with Java stack].
+Solved problems with services communication (clustering – gossip communication in the same datacenter;
+multi-clustering – gossip communication of services in different datacenters) – at the beginning of migration services could not discover each other.
+
+Fixed compatibility issues (new version of the framework changed the algorithm for id generation),
+added tests to ensure records ids are the same with newer versions of the library.
+Finally, deployed to production and tested the correctness (services discover each other, data is not corrupted).
+More details and problems I had to solve https://github.com/yan-khonski-it/orleans-migration-experience/blob/main/README.md
+
+Resolved 60+ incidents during on call weeks, deployed a hotfix, created tasks to address false alarms. All this during my two months of work.
+
+Tech stack:
+- Azure
+- Azure Traffic Manager
+- CosmosDB
+- .NET
+- Orleans
+
+
 ## Principal Software Engineer – Wrike
 
 https://www.wrike.com/
 
-_1 January 2022 – Present_
+_1 January 2022 – 28 February 2023_
 
 Internally moved to Wrike after Citrix restructuring at the end of 2021.
 
