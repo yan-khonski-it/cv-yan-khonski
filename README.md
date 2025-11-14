@@ -8,25 +8,31 @@
 
 [Secure Network Analytics](https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html)
 
-_14 August 2023 - Present_
+_14 August 2023 - December 31 2025_
+I was laid off.
 
-Working on storage consolidation.
+Added [Zeek telemetry](https://blogs.cisco.com/security/network-visibility-module-zeek-detections-in-secure-network-analytics) ingestion and processing 
+to the SNA storage platform, expanding detection capabilities and improving network threat visibility.
 
-[Added zeek support to storage](https://blogs.cisco.com/security/network-visibility-module-zeek-detections-in-secure-network-analytics),
-so now SNA can also run detections on zeek telemetry.
-
-Build a pipeline for testing performance: 32 TB data, tested different encodings, ingest over 100k records
-per second.
+Designed and implemented a 32 TB performance benchmarking pipeline testing encoding
+strategies and sustaining 100k+ records/sec ingest throughput, providing data-driven insight into Zeek telemetry behavior in production workloads.
 
 Interviewed candidates for Tech Lead and Senior Software Engineer positions.
 
-Upgraded libraries (HikariCP and fixed flaky tests).
+Owned and executed major Vertica DB upgrade cycles (v11 to v23 and v25), 
+including identification and resolution of upgrade-blocking defects. 
+Delivered patches to internal scripts, disabled incompatible new features, and fixed log rotation failures.
 
-Created migration plan and Upgraded VerticaDB from 11 to 23 and JDBC drivers.
+Upgraded the platform from Java 11 to Java 21, modernizing dependencies (HikariCP, JDBC drivers) and resolving library conflicts and flaky tests.
 
-Upgraded Java from 11 to 23.
+Improved QA automation pipeline efficiency and delivery velocity, 
+reducing pull-request approval time from several days to same-day reviews and increasing throughput to 5+ PRs/day per engineer
+by introducing structured engineering practices (small, focused changes; clean code; refactoring standards).
 
-Fixed bugs
+Enabled shift-left testing by extending automation to run on feature branches, enabling custom regression runs on demand and early defect detection.
+
+Sustained productivity of the whole team after layoffs (now Cisco has them on quarterly basis) by optimizing priorities 
+and continuing to support automation PR reviews, preventing slowdown despite a reduced team.
 
 Tech stack:
 - VerticaDB
@@ -35,6 +41,7 @@ Tech stack:
 - Python
 - Spring Framework
 - Bash
+- Docker
 - C (a little)
 
 
@@ -42,16 +49,22 @@ Tech stack:
 
 _1 March 2022 – 31 May 2023_
 
+Led and executed the migration of Microsoft Orleans from v3.1.7 to the latest release, including risk assessment, rollback strategy, 
+and end-to-end migration planning. Ramp-ed up on the .NET/Orleans ecosystem within four weeks (transitioning from Java background).
+
+Resolved cross-datacenter service discovery issues that initially prevented services from communicating during migration, restoring full cluster visibility.
+
+Fixed compatibility issues introduced by changes in ID generation algorithms, adding automated tests to guarantee ID consistency and prevent data corruption.
+
+Successfully deployed to production, validating correct service discovery and data integrity.
+
 Migrated Orleans from 3.1.7 to the latest version.
 
+> Details
 Services (silos) can run jobs, and any job with given key can be run at most once at any moment of time.
 Orleans promises that the data is not corrupted (modified concurrently by different instances of services).
-Assessed risks, ensured we can rollback, created migration plan. Within four weeks learned new technologies [originally, I worked with Java stack].
 Solved problems with services communication (clustering – gossip communication in the same datacenter;
 multi-clustering – gossip communication of services in different datacenters) – at the beginning of migration services could not discover each other.
-
-Fixed compatibility issues (new version of the framework changed the algorithm for id generation),
-added tests to ensure records ids are the same with newer versions of the library.
 Finally, deployed to production and tested the correctness (services discover each other, data is not corrupted).
 More details and problems I had to solve https://github.com/yan-khonski-it/orleans-migration-experience/blob/main/README.md
 
@@ -71,7 +84,7 @@ https://www.wrike.com/
 
 _1 January 2022 – 28 February 2023_
 
-Internally moved to Wrike after Citrix restructuring at the end of 2021.
+Internally moved to Wrike after Citrix restructuring (lay off) at the end of 2021.
 
 Reduced the number of queries on the database by 10 %,
 while our DAU grew by 2 % during Q1 2022. Analyzed most frequently executed queries, added caches (distributed, local, layered),
@@ -97,6 +110,7 @@ Tech stack:
 https://docs.citrix.com/en-us/citrix-microapps.html
 
 _1 September 2020 – December 31 2021_
+I was laid off.
 
 Designed, wrote architecture concept, documented (diagrams.net, confluence) 
 "multi-tenant migration of job processing nodes".
