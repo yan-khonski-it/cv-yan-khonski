@@ -122,7 +122,7 @@ The monolith code base was single tenant application.
 We had thousands of cloud instances (each tenant required multiple instances for high availability). The motivation was
 to reduce the running cost.
 
-We decided to migrate the job processing functinoality to make it multi-tenant and scalable. The next step would be to
+We decided to migrate the job processing functionality to make it multi-tenant and scalable. The next step would be to
 migrate the rest functionality.
 Result: during my implementation phase, Citrix laid off its employees of the whole business unit...
 
@@ -180,7 +180,7 @@ Wrote full regression REST API tests for some components (jMeter).
 
 Tech stack:
 
-- Java 11, Spring Boot (with Apache Tomcaqt embedded)
+- Java 11, Spring Boot (with Apache Tomcat embedded)
 - MySQL
 - MongoDB
 - Kafka
@@ -203,12 +203,12 @@ Helped them with Architecture, deployments and hosting.
 Tech stack:
 
 - Java 8, Spring
-- CSS, HTLM, Javascript
+- CSS, HTML, Javascript
 - MySQL
 
 Minor stack:
 
-- Python3, Django, MySQL, Apache Web Server, Windowns Server 2012
+- Python3, Django, MySQL, Apache Web Server, Windows Server 2012
 
 ## Java Developer - ITA Minsk
 
@@ -233,7 +233,7 @@ directory.
 Tech stack:
 
 - Java 8, Swing, Hibernate, Spring, ZK
-- CSS, HTLM, Javascript
+- CSS, HTML, Javascript
 - Yandex Maps, Google Maps API
 - MySQL
 - Apache Tomcat
@@ -250,7 +250,7 @@ Worked on internal and clients projects (Real estate domain, REIT).
 Tech stack:
 
 - Java, Hibernate, Spring
-- CSS, HTLM, Javascript
+- CSS, HTML, Javascript
 - Yandex Maps, Google Maps API
 - PostgreSQL
 - Apache Tomcat
