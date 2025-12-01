@@ -31,7 +31,7 @@ by introducing structured engineering practices (small, focused changes; clean c
 
 Enabled shift-left testing by extending automation to run on feature branches, enabling custom regression runs on demand and early defect detection.
 
-Sustained productivity of the whole team after layoffs (now Cisco has them on quarterly basis) by optimizing priorities 
+Sustained productivity of the whole team after layoffs by optimizing priorities 
 and continuing to support automation PR reviews, preventing slowdown despite a reduced team.
 
 Tech stack:
