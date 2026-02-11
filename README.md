@@ -8,7 +8,7 @@
 
 [Secure Network Analytics](https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html)
 
-_14 August 2023 - December 31 2025_
+_14 August 2023 - January 13 2026_
 I was laid off.
 
 Added [Zeek telemetry](https://blogs.cisco.com/security/network-visibility-module-zeek-detections-in-secure-network-analytics) ingestion and processing 
