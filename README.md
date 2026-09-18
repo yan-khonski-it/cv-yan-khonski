@@ -4,6 +4,13 @@
 - [stackoverflow](https://stackoverflow.com/users/1839360/yan-khonski)
 - [github](https://github.com/yan-khonski-it)
 
+## Staff Software Engineer, - Outreach
+I've fixed consistency issues that could result in stale or incorrect data in the search index.
+I implemented priority lanes in our ingestion pipeline, so direct user updates become searchable quickly,
+while high-volume background updates (automation or bulk imports) are processed at a lower priority.
+
+Tech Stack: Kafka, AWS, Terraform, ElasticSearch, Postgres, Debezium, Go lang.
+
 ## Senior Software Engineer, G10 - Cisco
 
 [Secure Network Analytics](https://www.cisco.com/site/us/en/products/security/security-analytics/secure-network-analytics/index.html)
