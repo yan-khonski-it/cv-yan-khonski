@@ -4,7 +4,9 @@
 - [stackoverflow](https://stackoverflow.com/users/1839360/yan-khonski)
 - [github](https://github.com/yan-khonski-it)
 
-## Staff Software Engineer, - Outreach
+## Staff Software Engineer, L3 - Outreach
+_23 March 2026 - Present_
+
 I've fixed consistency issues that could result in stale or incorrect data in the search index.
 I implemented priority lanes in our ingestion pipeline, so direct user updates become searchable quickly,
 while high-volume background updates (automation or bulk imports) are processed at a lower priority.
